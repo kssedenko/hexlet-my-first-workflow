@@ -13,4 +13,4 @@ jobs:
       # - uses: actions/checkout@v3
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
-      - run: make start
+      - run: make start  -I \hexlet-my-first-workflow\Makefile
