@@ -16,6 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name:clone rep for make
+      - name: clone rep for make
         uses: actions/checkout@v2
       - run: make -f Makefile
