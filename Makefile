@@ -1,3 +1,2 @@
-# Makefile
-hello:
+make hello:
 	echo "Hello, World"
